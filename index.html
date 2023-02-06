@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/css/output.css" rel="stylesheet">
+ 
+
+</head>
+<body class="font-sans antialiased">
+    <!--Header Section-->
+    <div class="flex px-7 py-4 border-b dc-header-broder-color items-center">
+        <div class="flex-1">
+            <div class="min-w-max">
+                <a href="/" class="flex items-center">
+                    <img class="mr-4" src="./src/image/logo-icon.svg" alt="">
+                    <h1 class="font-bold text-2xl logo-heading">Desh Courier</h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="w-full flex-1 flex items-center justify-end">
+            <form action="" class="w-full">
+                <div class="flex">
+                    <input type="search" placeholder="Search by anyThing"
+                        class="w-full gray-bg px-3 py-2 border-none focus:outline-none focus:ring-0">
+                    <button class="inline-block bg-blue-600 border-none px-3"><img
+                            src="./src/image/Iconly/Light/search.svg" alt=""></button>
+                </div>
+            </form>
+            <span class="w-0.5 h-10 bg-gray-100 inline-block  mx-8"></span>
+            <a href="#" class="pr-4">
+                <img src="./src/image/Iconly/Light/notification.svg" alt="">
+            </a>
+            <div class="profile-bg w-10 h-10 bg-center bg-contain bg-no-repeat rounded-full"></div>
+        </div>
+    </div>
+    <!--End Header Section-->
+
+    <!--Main Section-->
+    <div class="pl-7 flex">
+        <!--SideBar-->
+        <div class="w-1/6 border-r dc-header-broder-color pt-8">
+            <div class="flex flex-col h-full justify-between">
+                <div class="pr-4">
+                    <div>
+                        <h3 class="font-bold mb-3 text-gray-900">Menu</h3>
+                        <ul class="ml-2">
+                            <li class="mb-3">
+                                <a href="#" class="flex text-gray-300 items-center gap-2">
+                                    <span><img src="./src/image/Iconly/Light/dashboard.svg"
+                                            alt=""></span>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="flex text-blue-600 font-bold items-center gap-2">
+                                    <span><img src="./src/image/Iconly/Light/more.svg"
+                                            alt=""></span>
+                                    Shipments
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="flex text-gray-300 items-center gap-2">
+                                    <span><img src="./src/image/Iconly/Light/card.svg"
+                                            alt=""></span>
+                                    Payments
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="flex text-gray-300 items-center gap-2">
+                                    <span><img src="./src/image/Iconly/Light/location.svg"
+                                            alt=""></span>
+                                    Location
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mb-3 text-gray-900">Organisation</h3>
+                        <ul class="ml-2">
+                            <li class="mb-3">
+                                <a href="#" class="flex text-gray-300 items-center gap-2">
+                                    <span><img src="./src/image/Iconly/Light/user.svg"
+                                            alt=""></span>
+                                    Employees
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="flex text-gray-300 items-center gap-2">
+                                    <span><img src="./src/image/Iconly/Light/truck.svg"
+                                            alt=""></span>
+                                    Vehicles
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <div class=" pr-4 pb-6">
+                        <a href="#" class="bg-[#F9F9F9] p-4 flex gap-4 mb-2.5">
+                            <img src="./src/image/Iconly/Light/setting.svg" alt="">
+                            Settings
+                        </a>
+                        <a href="#" class="bg-[#F9F9F9] p-4 flex gap-4">
+                            <img src="./src/image/Iconly/Light/logout.svg" alt="">
+                            Log Out
+                        </a>
+                    </div>
+                    <!--Border Bottom-->
+                    <p class="border-b dc-header-broder-color -ml-4"></p>
+                    <div class="flex items-center gap-3 py-5">
+                        <div class="profile-bg w-[50px] h-[50px] bg-center bg-contain bg-no-repeat rounded-full"></div>
+                        <div>
+                            <h4 class="text-lg font-medium text-gray-900">Ratul Ahmed</h4>
+                            <span class="text-lg text-gray-300">Admin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End SideBar-->
+
+        <div class="dashboard-bg p-7 w-full">
+          <div class="flex">
+            <div class="flex bg-white rounded p-7">
+                <div class="mr-5">
+                    <h3 class="text-gray-600 text-lg">Courier Services</h3>
+                    <p>$ 300 L</p>
+
+                </div>
+                <div id="service" class="relative">
+                <strong class="absolute top-10 left-10"></strong>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--End Main Section-->
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js" integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./src/js/active.js"></script>
+    
+</body>
+</html>
